@@ -1,5 +1,6 @@
 algoritmoDivida
 
+inicio
  real emprestimo, divida
  leia emprestimo
  divida <- (emprestimo*0.05)+(emprestimo)
