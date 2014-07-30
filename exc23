@@ -1,0 +1,8 @@
+algoritmoDivida
+
+ real emprestimo, divida
+ leia emprestimo
+ divida <- (emprestimo*0.05)+(emprestimo)
+ imprima "O valor final da dívida é de: "
+ 
+fim 
