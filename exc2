@@ -1,0 +1,17 @@
+algoritmoDivisao
+
+inicio
+  real n1, n2, dividendo, divisor, quociente, resto
+  leia n1
+  leia n2
+  dividendo<-n1
+  divisor<-n2
+  quociente<- (n1/n2)
+  resto<- n1 mod n2
+  
+  imprima "O dividendo é:",dividendo
+  imprima "O divisor é:",divisor
+  imprima "O quociente é:",quociente
+  imprima "O resto é:",resto
+  
+fim  
