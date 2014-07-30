@@ -1,0 +1,17 @@
+AlgoritmoAreaPerimetroDiagonalVolumeParalelepipedo
+
+inicio
+  real base, altura, comprimento, area, diagonal, perimetro, volume
+  leia base
+  leia altura
+  leia comprimento
+  area <- 4*(base*altura)+2*(comprimento*altura)
+  perimetro <- 4*((2*base)+(2*altura))+2*((2*comprimento)+(2*altura))
+  diagonal <- sqrt((base*base)+(altura*altura)+(comrpimento*comprimento))
+  volume <- (base*altura*comrpimento)
+  
+  imprima "A área é",area
+  imprima "O perímetro é",perimetro
+  imprima "A diagonal é",diagonal
+  imprima "O volume é",volume
+fim  
