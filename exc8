@@ -1,0 +1,11 @@
+algoritmoHipotenusa
+inicio
+  real cateto1, cateto2, hipotenusa
+  leia cateto1
+  leia cateto2
+  
+  hipotenusa <- sqrt((cateto1*cateto1)+(cateto2*cateto2))
+  
+  imprima "A hipotenusa é:",hipotenusa
+
+fim  
