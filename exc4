@@ -1,0 +1,15 @@
+algoritmoAreaPerimetroDiagonalRetangulo
+
+inicio
+  real base, altura, area, diagonal, perimetro
+  leia base
+  leia altura
+  area <- (base*altura)
+  perimetro <- (2*base)+(2*altura)
+  diagonal <- sqrt((base*base)+(altura*altura))
+  
+  imprima "A área é",area
+  imprima "O perímetro é",perimetro
+  imprima "A diagonal é",diagonal
+  
+fim  
