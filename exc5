@@ -1,0 +1,14 @@
+algoritmoAreaPerimetroDiagonalQuadrado
+
+inicio
+  real lado, area, diagonal, perimetro
+  leia lado
+  area <- (lado*lado)
+  perimetro <- (4*lado)
+  diagonal <- sqrt((lado*lado)+(lado*lado))
+  
+  imprima "A área é",area
+  imprima "O perímetro é",perimetro
+  imprima "A diagonal é",diagonal
+  
+fim  
